@@ -10,7 +10,7 @@ pipeline {
         stage('git Checkout') {
             steps {
                 // Checkout your repository containing the Terram configuration
-                git branch
+                git branch: 'main', url: 'https://github.com/Ajithkumar1192000/terraform.git'
                 
             }
         }
