@@ -1,9 +1,5 @@
 pipeline {
-      agent {
-        docker {
-            image 'hashicorp/terraform:latest'
-        }
-    }
+      agent any
     stages {
         stage('git Checkout') {
             steps {
