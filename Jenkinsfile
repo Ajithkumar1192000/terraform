@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('git Checkout') {
             steps {
-                // Checkout your repository containing the Terraform configuration
+                // Checkout your repository containing the Terram configuration
+                git branch
                 
             }
         }
